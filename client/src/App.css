@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss" important;
+
+body {
+    background-color: rgb(1, 1, 18);
+    position: relative;
+}
+
+/* Css Variables */
+/* :root {
+    --main-heading-color: ;
+    --sub-heading-color:;
+    --description-text-color:;
+    --logo-blue:;
+
+    
+} */
+
+@media screen and (max-width: 767px) {
+    .nav-items {
+        background-color: black;
+        box-sizing: content-box !important;
+        overflow: hidden;
+        height: 0;
+        opacity: 0;
+        padding: 0;
+        transition: height 0.2s ease-in-out, padding 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    }
+
+    .nav-items.responsive-nav {
+        opacity: 10;
+        height: auto;
+        padding: 20px;
+    }
+
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Inverts the icon color (good for dark backgrounds) */
+  cursor: pointer;
+}
+
+.nav-link:active {
+    color: rgb(7, 3, 79);
+}
+
+.recharts-legend-wrapper ul li{
+    display: none !important;
+}
+.asteroid .Link{
+    display: none !important;
+}
+table, th, td{
+border: 2px solid rgb(152, 151, 151);
+padding: 10px 8px;
+ }
