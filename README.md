@@ -6,7 +6,7 @@
 
  ## LIVE PROJECT
  
- Coming soon on Vercel
+https://nasa-clone-ck.vercel.app/
 
 
  ## FEATURES
