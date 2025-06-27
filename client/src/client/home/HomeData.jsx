@@ -36,7 +36,7 @@ function HomeData() {
         <Card
           data={earthPolychromaticData}
           title="Earth Polychromatic Image"
-          name="epic"
+          name="earth-image"
         />
       </div>
     </div>

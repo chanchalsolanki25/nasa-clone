@@ -27,18 +27,18 @@ function Card({
           <>
             <div className=" w-full md:h-[20rem] h-[12rem] rounded-lg overflow-hidden">
               <img
-                src={name === "epic" ? data?.epicData?.imageUrl : data?.url}
-                alt={name === "epic" ? "EPIC" : "APOD"}
+                src={name === "earth-image" ? data?.epicData?.imageUrl : data?.url}
+                alt={name === "earth-image" ? "EPIC" : "APOD"}
                 className="object-contain w-full h-full rounded-lg"
               />
             </div>
 
             <div className="mt-4 text-slate-100 h-auto">
               <h2 className="md:text-[1rem] text-[16px] font-['outfit'] text-slate-200">
-                {name === "epic" ? data?.epicData?.caption : data?.title}
+                {name === "earth-image" ? data?.epicData?.caption : data?.title}
               </h2>
               <p className="text-gray-500">
-                {name === "epic" ? data?.epicData?.date : data?.date}
+                {name === "earth-image" ? data?.epicData?.date : data?.date}
               </p>
               {name === "apod" && (
                 <p className="mt-2 text-md font-['outfit'] text-slate-300">
