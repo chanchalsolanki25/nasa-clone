@@ -35,7 +35,7 @@ function Asteroids() {
                   <tr className="bg-blue-900 text-slate-200">
                     <th colSpan={2}>Name</th>
                     <th colSpan={2}>Miss Distance (km)</th>
-                    <th colSpan={2}>Dangerous ot Earth</th>
+                    <th colSpan={2}>Dangerous to Earth</th>
                   </tr>
                 </thead>
                 <tbody>
