@@ -57,7 +57,7 @@ function Card({
             </div>
           </>
         ) : (
-          <p className=" text-slate-200 text-center text-xl">Loading...</p>
+          <p className="text-slate-200 text-center text-xl">Loading...</p>
         )
       ) : data ? (
         <>

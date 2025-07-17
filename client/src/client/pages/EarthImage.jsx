@@ -102,7 +102,7 @@ const EarthPage = () => {
                   {imageGallery?.map((image) => (
                     <div
                       key={image.identifier}
-                      className="w-full h-full hover:border-[2px] border-slate-700 cursor-pointer rounded-lg"
+                      className="w-full h-full hover:border-[2px] border-slate-700  cursor-pointer rounded-lg"
                       onClick={() => handleImage(image.identifier)}
                     >
                       <img

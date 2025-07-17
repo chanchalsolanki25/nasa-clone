@@ -9,7 +9,7 @@ import Card from "../Card";
 function HomeData() {
   const [data, setData] = useState(null);
   const [asteroidsData, setAsteroidsData] = useState(null);
-  const [earthPolychromaticData, setEarthPolychromaticData] = useState({});
+  const [earthPolychromaticData, setEarthPolychromaticData] = useState(null);
 
   useEffect(() => {
     fetchApodData().then(setData);
